@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 16.933 16.933" id="quran">
+    <path fill="#ffaf7a" d="m2.733 12.719 4.142 1.385-5.023 1.346.546-2.731z"></path>
+    <path fill="#ffc6a0"
+          d="m3.175 5.237-1.852 6.615 7.144 1.914 7.143-1.914-1.852-6.615-1.323.265-3.968.527-3.97-.527Z"></path>
+    <path fill="#ffaf7a"
+          d="m12.8 5.43-.365.072-.14.019 1.199 4.798h.529zm-4.863.528v7.093l-6.465-1.732-.15.533 7.145 1.914V6.03zm6.264 6.76-4.143 1.386 5.023 1.346-.546-2.731zm-.597-1.34-.265-1.06h-.484l.22 1.06z"></path>
+    <path fill="#ffaf7a" d="M8.994 5.958v7.093l6.465-1.732.15.533-7.144 1.914V6.03Z"></path>
+    <path fill="#ec5f00"
+          d="M.547 11.98a.528.528 0 0 1 .648-.374l14.025 3.758a.528.528 0 1 1-.273 1.022L.92 12.628a.528.528 0 0 1-.374-.648Z"></path>
+    <path fill="#c44f00"
+          d="M.534 12.175c.023.21.17.394.387.452l14.025 3.759a.528.528 0 0 0 .394-.972.528.528 0 0 1-.661.569L.654 12.225a.531.531 0 0 1-.12-.05z"></path>
+    <path fill="#ffca28" d="m3.97 10.319-.265 1.058 3.193.177 1.569.088 1.568-.088 3.194-.177-.265-1.058z"></path>
+    <path fill="#ecb200" d="m11.377 11.472.53-.036v-1.117h-.53"></path>
+    <path fill="#ecb200"
+          d="m3.97 10.319-.133.529h3.571c.494 0 .903.336 1.02.792l.039.002.037-.002a1.053 1.053 0 0 1 1.021-.792h3.571l-.132-.53z"></path>
+    <path fill="#ec5f00" d="M10.054 10.319v1.852l.794-.53.794.53v-1.852z"></path>
+    <path fill="#e4eff8"
+          d="M9.525 5.027h2.91l1.323 5.292H9.525c-.586 0-1.058.472-1.058 1.058 0-.586-.472-1.058-1.059-1.058H3.175l1.323-5.292h2.91c.587 0 1.059.472 1.059 1.058 0-.586.472-1.058 1.058-1.058z"></path>
+    <path fill="#c4dcf0"
+          d="m3.308 9.79-.132.529h4.232c.587 0 1.059.472 1.059 1.058 0-.586.472-1.058 1.058-1.058h4.233l-.132-.53H9.525c-.586 0-1.058.473-1.058 1.059 0-.586-.472-1.058-1.059-1.058zm1.19-4.763-.131.528 3.041.001c.587 0 1.059.472 1.059 1.059 0-.587.472-1.059 1.058-1.059l3.042-.001-.132-.528h-2.91c-.586 0-1.058.472-1.058 1.058 0-.586-.472-1.058-1.059-1.058z"></path>
+    <path fill="#c44f00" d="m8.731 13.626-2.044.548 2.044.547 2.044-.547z"></path>
+    <path fill="#ec5f00"
+          d="M16.386 11.98a.528.528 0 0 0-.648-.374L1.713 15.364a.528.528 0 1 0 .274 1.022l14.025-3.758a.528.528 0 0 0 .374-.648z"></path>
+    <path fill="#c44f00"
+          d="M15.844 11.589a.533.533 0 0 0-.106.017L1.713 15.364a.528.528 0 0 0-.1.983c-.009-.023-.019-.046-.025-.07a.528.528 0 0 1 .374-.648l14.025-3.758a.525.525 0 0 1 .372.04.526.526 0 0 0-.515-.322z"></path>
+    <path fill="#c4dcf0"
+          d="M5.292 6.086c-.353 0-.353.529 0 .529h2.12c.353 0 .353-.53 0-.53zm4.23 0c-.353 0-.353.529 0 .529h2.12c.353 0 .353-.53 0-.53zM5.027 7.409c-.352 0-.352.529 0 .529h2.385c.353 0 .353-.53 0-.53zm4.499 0c-.353 0-.353.529 0 .529h2.38c.353 0 .353-.53 0-.53zM4.764 8.73c-.353 0-.353.53 0 .53h2.645c.352 0 .352-.53 0-.53zm4.762 0c-.353 0-.353.53 0 .53h2.644c.353 0 .353-.53 0-.53z"
+          color="#000" font-family="sans-serif" font-weight="400" overflow="visible"
+          style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal"></path>
+    <path fill="#ec5f00"
+          d="M7.805.53c-.365 0-.661.31-.661.694 0 .959 1.323 1.62 1.323 1.62s1.324-.661 1.323-1.62c0-.384-.297-.695-.662-.695-.44 0-.661.463-.661.463S8.247.53 7.805.53z"></path>
+    <path fill="#c44f00"
+          d="M9.128.53c-.06 0-.115.008-.167.023a.687.687 0 0 1 .498.67c0 .768-.819 1.327-1.158 1.527.085.05.166.094.166.094s1.324-.661 1.323-1.62c0-.384-.297-.695-.662-.695z"></path>
+    <path fill="#ffca28"
+          d="M8.731 3.758c0-.352-.529-.352-.529 0v.265c0 .353.53.353.53 0zm1.059-.583c0-.353-.53-.353-.53 0v.265c0 .353.53.353.53 0zm-2.117 0c0-.353-.53-.353-.53 0v.265c0 .353.53.353.53 0z"
+          color="#000" font-family="sans-serif" font-weight="400" overflow="visible"
+          style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal"></path>
+    <path fill="#c44f00" d="M10.054 10.319v1.852l.265-.176v-1.676zm.926 1.235-.132.088.794.53v-.177z"></path>
+</svg>

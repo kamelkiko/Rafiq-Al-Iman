@@ -1,0 +1,13 @@
+<idea-plugin>
+    <projectListeners>
+        <listener
+                class="com.kamel.rafiq_al_iman.presentation.listener.GradleListener"
+                topic="com.android.tools.idea.gradle.project.build.GradleBuildListener"/>
+    </projectListeners>
+
+    <projectListeners>
+        <listener
+                class="com.kamel.rafiq_al_iman.presentation.listener.SyncListener"
+                topic="com.android.tools.idea.gradle.project.sync.GradleSyncListenerWithRoot"/>
+    </projectListeners>
+</idea-plugin>

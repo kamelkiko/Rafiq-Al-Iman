@@ -1,0 +1,76 @@
+<idea-plugin>
+    <id>com.kamel.rafiq_al_iman</id>
+    <name>Rafiq Al-Iman</name>
+    <version>1.0.1</version>
+    <vendor email="kikokeko10@gmail.com">Kamel Mohamed Kamel</vendor>
+    <description><![CDATA[
+<h1>Rafiq Al-Iman – Your Spiritual Companion in Coding</h1>
+
+<p><strong>Rafiq Al-Iman</strong> is a JetBrains plugin designed for <strong>Muslim developers</strong>, helping you stay connected to your faith while coding. Whether you need <strong>accurate prayer time reminders, Quran recitations, or supplications (اذكار) displayed during builds</strong>, this plugin seamlessly integrates with <strong>IntelliJ IDEA and Android Studio</strong> to enhance your spiritual experience.</p>
+
+<h2>Features</h2>
+
+<h3>🎧 Quran Audio Player</h3>
+<ul>
+  <li>Listen to beautiful <strong>Quran recitations</strong> while coding.</li>
+  <li>Integrated directly into the IDE for a <strong>distraction-free</strong> experience.</li>
+  <li>Supports <strong>continuous playback</strong> for extended focus and spiritual connection.</li>
+</ul>
+
+<h3>📿 Remembrance & Supplications (اذكار)</h3>
+<ul>
+  <li>Displays <strong>random supplications (اذكار)</strong> during <strong>project builds or syncs</strong>.</li>
+  <li>Helps you <strong>remember Allah</strong> during waiting times.</li>
+  <li>A <strong>gentle spiritual reminder</strong> while you work.</li>
+</ul>
+
+<h3>🎨 Seamless UI Integration</h3>
+<ul>
+  <li>Designed to <strong>blend naturally</strong> into JetBrains IDEs (IntelliJ IDEA, Android Studio, etc.).</li>
+  <li><strong>Minimalist and elegant</strong> design for a non-intrusive experience.</li>
+</ul>
+
+<h2>🛠 Installation & Setup</h2>
+
+<h3>✅ Enable JCEF for Quran Player</h3>
+<p>If the <strong>Quran player does not work</strong>, please ensure <strong>JCEF is enabled</strong> in IntelliJ:</p>
+<ol>
+  <li>Open <strong>Find Action</strong> (<code>Ctrl + Shift + A</code> / <code>Cmd + Shift + A</code>).</li>
+  <li>Search for <strong>Registry</strong> and open it.</li>
+  <li>Look for <code>ide.browser.jcef.enabled</code>.</li>
+  <li><strong>Set it to true</strong>.</li>
+</ol>
+
+<h3>✅ Fix Quran Player in Android Studio</h3>
+<p>Android Studio may <strong>start with a JDK version that does not support JCEF</strong>. To fix this:</p>
+<ol>
+  <li>Open <strong>"Search All"</strong> (magnifying glass in top right) or use <code>Ctrl + Shift + A</code> (<code>Cmd + Shift + A</code> on macOS).</li>
+  <li>Search for <strong>"Choose boot Java runtime for the IDE"</strong>.</li>
+  <li>Select the <strong>latest JDK version</strong> in the <strong>"New:" dropdown</strong> for example (e.g., <code>17.0.12+7-b1504.27 JetBrains Runtime with JCEF</code>).</li>
+  <li>Click <strong>OK</strong> and <strong>wait for installation</strong>.</li>
+  <li><strong>Restart</strong> Android Studio.</li>
+</ol>
+
+<h2>📥 Download & Get Started</h2>
+]]></description>
+    <depends>com.intellij.modules.platform</depends>
+    <depends optional="true" config-file="java_config.xml">com.intellij.modules.java</depends>
+    <depends optional="true" config-file="android_config.xml">org.jetbrains.android</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <postStartupActivity implementation="com.kamel.rafiq_al_iman.AppStartupActivity"/>
+        <toolWindow id="QuranPlayer" anchor="bottom"
+                    icon="/audio_icon.svg"
+                    factoryClass="com.kamel.rafiq_al_iman.presentation.ui.AudioPlayerToolWindow"/>
+    </extensions>
+
+    <actions>
+        <action id="com.kamel.demo.presentation.action.UpdateLocationAction"
+                class="com.kamel.rafiq_al_iman.presentation.action.UpdateLocationAction"
+                text="Update Location For Prayer Times"
+                description="This is for update your location for prayer times">
+            <add-to-group group-id="ToolsMenu" anchor="first"/>
+        </action>
+    </actions>
+
+</idea-plugin>
