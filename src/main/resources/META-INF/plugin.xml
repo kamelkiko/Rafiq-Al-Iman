@@ -10,6 +10,13 @@
 
 <h2>Features</h2>
 
+<h3>🕌 Accurate Prayer Time Reminders</h3>
+<ul>
+  <li>Displays <strong>daily prayer times</strong> based on your <strong>geographical location</strong>.</li>
+  <li><strong>Offline caching</strong> ensures prayer times are stored for <strong>one year</strong> for faster access.</li>
+  <li>Easily <strong>update location</strong> from the <strong>Tools</strong> menu (<code>Update Location For Prayer Times</code>).</li>
+</ul>
+
 <h3>🎧 Quran Audio Player</h3>
 <ul>
   <li>Listen to beautiful <strong>Quran recitations</strong> while coding.</li>

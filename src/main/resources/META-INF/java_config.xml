@@ -4,10 +4,4 @@
                 class="com.kamel.rafiq_al_iman.presentation.listener.BuildListener"
                 topic="com.intellij.compiler.server.BuildManagerListener"/>
     </projectListeners>
-
-    <projectListeners>
-        <listener
-                class="com.kamel.rafiq_al_iman.presentation.listener.GradleListener"
-                topic="com.android.tools.idea.gradle.project.build.GradleBuildListener"/>
-    </projectListeners>
 </idea-plugin>

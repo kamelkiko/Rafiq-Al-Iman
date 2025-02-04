@@ -22,7 +22,7 @@ intellij {
     sameSinceUntilBuild.set(false)
 }
 
-dependencies{
+dependencies {
     implementation("com.google.code.gson:gson:2.10.1")
 }
 
@@ -40,9 +40,8 @@ tasks {
         changeNotes.set(
             """<div dir="rtl" style="font-family: Arial, sans-serif; line-height: 1.6;">
     <ul>
-        <li>📿 <strong>عرض أذكار أثناء تجهيز المشروع</strong></li>
-        <li>🎧 <strong>مشغل صوتي للقرآن الكريم</strong> للاستماع إلى التلاوة.</li>
-        <li>💡 <strong>واجهة مستخدم مدمجة</strong> مع IntelliJ IDEA.</li>
+          <li>🔔 <strong>تذكير بأوقات الصلاة</strong>.</li>
+          <li>📍 <strong>دعم لتحديث الموقع الجغرافي</strong>.</li>
     </ul>
 
     <p>
